@@ -46,7 +46,8 @@ const initWindow = () => {
     state.consoleBox.style.position = 'absolute';
     state.consoleBox.style.display = 'block';
     state.consoleBox.style.right = `${0.85 * window.innerWidth + 30}px`;
-    state.consoleBox.style.top = `${0.15 * Dimension.WIN_HEIGHT + 30}px`;
+    state.consoleBox.style.top = `${0.05 * Dimension.WIN_HEIGHT}px`;
+    state.consoleBox.padding = 0;
     state.consoleBox.style.color = '#fff';
     state.consoleBox.style.width = '200px';
     bod.appendChild(state.consoleBox);
@@ -485,7 +486,7 @@ const initWindow = () => {
         state.consoleBox.childNodes.forEach((child) => {
             child.style.margin = '5px 30px 0 0';
             if (child.className === 'part') {
-                child.style.marginLeft = '10px';
+                child.style.marginLeft = '0 0 0 10px';
                 child.style.display = state.renderMode === Modes.PARTICLES ? 'block' : 'none';
                 child.style.backgroundImage = 'linear-gradient(#444, #333)';
                 child.style.fontFamily = 'Sans';

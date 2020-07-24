@@ -15,7 +15,7 @@ const Canvas = () => {
     element.style.position = 'absolute';
     element.style.borderRadius = '2px';
     element.style.border = 'solid 1px #333';
-    element.style.top = `${Dimension.WIN_HEIGHT * 0.15}px`;
+    element.style.top = `${Dimension.WIN_HEIGHT * 0.1}px`;
     element.style.left = `${Dimension.WIN_WIDTH * 0.15}px`;
     element.style.width = `${Dimension.WIN_WIDTH * 0.7}px`;
     element.style.height = `${Dimension.WIN_HEIGHT * 0.7}px`;
