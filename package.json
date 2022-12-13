@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/foo-bar-sketch/tdt4230-final-project#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "play-sound": "^1.1.3",
     "url-loader": "^4.0.0",
